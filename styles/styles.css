@@ -27,7 +27,7 @@ body {
   justify-content: center;
   align-items: center;
 }
-div#card {
+main#card {
   width: var(--card-width);
   height: 390px;
   background-color: var(--white);
