@@ -9,13 +9,6 @@
   --slate-900: hsl(218, 44%, 22%);
   --card-width: 250px;
 }
-.attribution {
-  font-size: 11px;
-  text-align: center;
-}
-.attribution a {
-  color: hsl(228, 45%, 44%);
-}
 html,
 body {
   height: 100%;
@@ -27,7 +20,7 @@ body {
   justify-content: center;
   align-items: center;
 }
-main#card {
+.card {
   width: var(--card-width);
   height: 390px;
   background-color: var(--white);
